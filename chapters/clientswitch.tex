@@ -1,5 +1,32 @@
 \section{Migragrea clienților}
 
+\begin{frame}{Migrarea clienților}
+  \begin{itemize}
+    \item Mecanismul de handoff e folosit și pentru balansarea încărcării AP-urilor
+    \item Se folosește metrica capacității disponibile
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Mecanismul de handoff}
+  \begin{columns}
+  \begin{column}{0.5\linewidth}
+    \begin{enumerate}
+      \item DC adaugă MAC-ul clientului pe DAP2
+      \item DAP2 trimite un mesaj proxy ARP cu IP-ul său
+      \item DC îi cere lui DAP1 să trimită un frame de dezasocierelui C
+      \item DAP1 scoate clientul din ACL și trimite frame-ul
+      \item Clientul începe să caute alt AP
+      \item DAP2 răspunde clientului
+    \end{enumerate}
+  \end{column}
+  \begin{column}{0.5\linewidth}
+    \begin{figure}
+      \includegraphics[scale=0.20]{img/fig3.png}
+    \end{figure}
+  \end{column}
+  \end{columns}
+\end{frame}
+
 \begin{frame}
 \begin{itemize}
   \item Balansarea încărcării AP-urilor
