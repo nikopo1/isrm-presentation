@@ -29,7 +29,7 @@
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
 
 % So that we don't have to declare it a bazillion times
-\institute[SOA/OS]{Advanced Operating Systems}
+\institute[ISRM]{Infrastructură și Servicii pentru Rețele Mobile}
 
 % Slide-urile cu mai multe părți sunt marcate cu textul (cont.)
 \setbeamertemplate{frametitle continuation}[from second]
