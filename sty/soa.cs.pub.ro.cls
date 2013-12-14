@@ -63,8 +63,4 @@
 % Show contents at every section beginning. Ripped off from manual.
 \AtBeginSection[] % Do nothing for \section*
 {
-  \begin{frame}<beamer>
-    \frametitle{Outline}
-  \tableofcontents[currentsection]
-    \end{frame}
 }
