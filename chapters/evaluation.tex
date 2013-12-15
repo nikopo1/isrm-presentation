@@ -56,7 +56,30 @@
 \begin{frame}{Izolare impact politica de asociere}
   Asignare canale conform DenseAP, DAP-uri fără ACL
   \begin{center}
-    \includegraphics[scale=0.35]{img/fig13.png}
+    \includegraphics[scale=0.21]{img/fig13.png}
+    \includegraphics[scale=0.21]{img/fig14.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Performanță cu mai puține DAP-uri}
+  \begin{center}
+    \includegraphics[scale=0.35]{img/fig16.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Performanță cu mai mulți clienți}
+  \begin{center}
+    \includegraphics[scale=0.35]{img/fig17.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Trafic sporadic}
+  \begin{itemize}
+    \item 2000 de fișiere: dimensiunea medie 125KB
+    \item Variat timpul între descărcări succesive
+  \end{itemize}
+  \begin{center}
+    \includegraphics[scale=0.2]{img/table1.png}
   \end{center}
 \end{frame}
 
@@ -64,6 +87,17 @@
   Detectare AP supraîncărcat, migrarea clienților
   \begin{center}
     \includegraphics[scale=0.35]{img/fig18.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Handoff}
+  \begin{itemize}
+    \item Important pentru load balancing și clienți mobili
+    \item Posibil TCP timeout din cauza timpului mare de handoff
+    \item Clienții trebuie mutați de pe un AP pe altul cât mai rar
+  \end{itemize}
+  \begin{center}
+    \includegraphics[scale=0.2]{img/table2.png}
   \end{center}
 \end{frame}
 
